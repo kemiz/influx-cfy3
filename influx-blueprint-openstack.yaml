@@ -28,19 +28,19 @@ inputs:
 
   admin_port:
     description: >
-      User for connecting to agent VM's
+      InfluxDB admin_port
 
   api_port:
     description: >
-      User for connecting to agent VM's
+      InfluxDB api_port
 
   raft_port:
     description: >
-      User for connecting to agent VM's
+      InfluxDB raft_port
 
   protobuf_port:
     description: >
-      User for connecting to agent VM's     
+      InfluxDB protobuf_port
 
 node_templates:
 
