@@ -54,7 +54,7 @@ node_templates:
     type: influxdb.nodes.InfluxDB
     properties:
       admin_port: { get_input: admin_port }
-      api_port: { get_input:  }
+      api_port: { get_input: api_port }
       raft_port: { get_input: raft_port }
       protobuf_port: { get_input: protobuf_port }
     relationships:
