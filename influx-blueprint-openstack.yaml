@@ -53,10 +53,10 @@ node_templates:
   influxdb:
     type: influxdb.nodes.InfluxDB
     properties:
-      port: { get_input: admin_port }
-      port: { get_input: api_port }
-      port: { get_input: raft_port }
-      port: { get_input: protobuf_port }
+      admin_port: { get_input: admin_port }
+      api_port: { get_input:  }
+      raft_port: { get_input: raft_port }
+      protobuf_port: { get_input: protobuf_port }
     relationships:
       - type: cloudify.relationships.contained_in
         target: influx_host

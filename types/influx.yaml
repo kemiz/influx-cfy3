@@ -11,19 +11,19 @@ node_types:
   influxdb.nodes.InfluxDB:
     derived_from: cloudify.nodes.DBMS
     properties:
-      port:
+      admin_port:
         description: Admin port
         type: integer
         default: 8083
-      port:  
+      api_port:  
         description: API port
         type: integer       
         default: 8086 
-      port:
+      raft_port:
         description: Raft port
         type: integer
         default: 8090                
-      port:
+      protobuf_port:
         description: Protobuf port
         type: integer
         default: 8099
