@@ -55,4 +55,4 @@ relationships:
           implementation: script.script_runner.tasks.run
           inputs:
             script_path:
-              default: 
+              default: https://raw.githubusercontent.com/kemiz/influx-cfy3/3.2m8/scripts/set-influx-port.sh
